@@ -65,7 +65,8 @@
 
           <div 
             v-if="total>0" 
-            class="foot">
+            class="foot"
+            >
             <!-- 底部完成区 -->
              <span>已完成<b>{{ total - remaining }}</b>件事</span>
              <button 
